@@ -111,7 +111,6 @@ class Game {
         }
         feedback.innerHTML = result;
         this.pastGuesses.push(this.playersGuess);
-        debugger
         document.querySelector(`#prevGuess p:nth-child(${this.pastGuesses.length})`).innerHTML = this.playersGuess;
         //return result;
     }
